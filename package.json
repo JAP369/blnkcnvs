@@ -26,7 +26,8 @@
     "slick-carousel": "^1.8.1",
     "swiper": "^8.3.2",
     "tw-elements": "^1.0.0-alpha12",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",

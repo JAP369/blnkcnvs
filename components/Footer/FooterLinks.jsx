@@ -13,19 +13,19 @@ function FooterLinks() {
           </span>
           <ul className='list-unstyled'>
             <li>
-              <a className={linkStyling} href='/#services'>
+              <Link className={linkStyling} href='/#services'>
                 Our Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={linkStyling} href='/about'>
+              <Link className={linkStyling} href='/about'>
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={linkStyling} href='/contact'>
+              <Link className={linkStyling} href='/contact'>
                 Contact Us
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -35,19 +35,19 @@ function FooterLinks() {
           </span>
           <ul className='list-unstyled'>
             <li>
-              <a className={linkStyling} href='/'>
+              <Link className={linkStyling} href='/'>
                 License
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={linkStyling} href='/'>
+              <Link className={linkStyling} href='/'>
                 Terms & Conditions
-              </a>
+              </Link>
             </li>
             <li>
-              <a className={linkStyling} href='/'>
+              <Link className={linkStyling} href='/'>
                 Privacy Policy
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

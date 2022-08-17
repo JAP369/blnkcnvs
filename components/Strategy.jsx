@@ -37,10 +37,12 @@ function Strategy() {
             <h5 className='text-xl font-bold pb-4 text-center'>
               Local Marketing
             </h5>
-            <img
+            <Image
               alt='...'
               className='align-middle border-none max-w-full h-auto rounded-lg'
               src='/img/local-marketing.jpeg'
+              width='300px'
+              height='200px'
             />
             <p className='px-2 py-2 text-base font-light leading-relaxed'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
@@ -58,10 +60,12 @@ function Strategy() {
           <div className={cardStyles}>
             {' '}
             <h5 className='text-xl font-bold pb-4 text-center'>Social Media</h5>
-            <img
+            <Image
               alt='...'
               className='align-middle border-none max-w-full h-auto rounded-lg'
-              src='/img/social-media.png'
+              src='/img/social-media.jpeg'
+              width='300px'
+              height='200px'
             />
             <p className='px-2 py-2 text-base font-light leading-relaxed'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque

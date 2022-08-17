@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Image from 'next/image';
 
 function Hero2() {
   const controls = useAnimation();
@@ -41,7 +42,7 @@ function Hero2() {
               }}
             >
               Interactively transform magnetic growth strategies whereas
-              prospective "outside the box" thinking.
+              prospective <strong>outside the box</strong> thinking.
             </motion.p>
             <div className='mt-12'>
               <a
@@ -56,7 +57,7 @@ function Hero2() {
         </div>
       </div>
       <div>
-        <img
+        <Image
           className='absolute top-0 b-auto right-0 pt-16 sm:w-6/12 -mt-48 sm:mt-0 w-10/12 max-h-860-px w-0'
           src='/img/logo.png'
           alt='BLNK CNVS'

@@ -1,17 +1,6 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Hero from '../components/Hero';
-import Instagram from '../components/Instagram';
-import Featured from '../components/Featured';
-import { SliderData } from '../components/SliderData';
-import ProfileCard from '../components/UI/atoms/ProfileCard';
-import Services from '../components/Services';
 import Strategy from '../components/Strategy';
-import ServicesTemp from '../components/ServicesTemp';
-import Planning from '../components/Planning';
-import Slider from '../components/Slider';
-import Accordion from '../components/Accordion';
-import Carousel from '../components/NextJsCarousel';
 import Hero2 from '../components/Hero2';
 import Featured2 from '../components/Featured2';
 
